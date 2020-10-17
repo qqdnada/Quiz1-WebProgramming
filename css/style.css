@@ -1,0 +1,197 @@
+ul.navbar {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: 24px 0px;
+}
+
+li.navbar {
+    display: inline-block;
+    width: 152px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    padding: 2px;
+}
+
+a {
+    color: #707070;
+}
+
+a:hover {
+    color: #707070;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.tourism:hover {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Quicksand';
+    font-weight: bold;
+    color: #707070;
+    font-size: 52px;
+    margin: 0px;
+}
+
+h1.home {
+    margin-top: 80px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-family: 'Quicksand';
+    color: #707070;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+h2.tourism {
+    margin-top: 60px;
+}
+
+h4 {
+    font-family: 'Quicksand';
+    color: #707070;
+    font-size: 24px;
+}
+
+h4.home {
+    display: inline;
+    width: 184px;
+    height: 48px;
+    margin: 16px;
+}
+
+hr {
+    border: 4px solid #DDD7DC;
+    border-radius: 12px;
+    margin: 0px;
+}
+
+hr.home {
+    display: inline-block;
+    width: 200px;
+}
+
+hr.tourism {
+    display: inline-block;
+    width: 100px;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+hr.food {
+    display: inline-block;
+    width: 120px;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    margin-left: 36px;
+}
+
+img.home {
+    width: 312px;
+    margin: 20px;
+}
+
+img.profile {
+    display: block;
+    border: 2px solid #DDD7DC;
+    padding: 8px;
+    border-radius: 50%;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+
+img.hometown {
+    display: inline-block;
+    width: 445px;
+    margin-right: 15px;
+}
+
+img.food {
+    display: block;
+    width: 445px;
+    border-radius: 12px;
+    margin-bottom: 36px;
+}
+
+img.tourism {
+    display: block;
+    width: 570px;
+}
+
+p {
+    font-family: 'Montserrat';
+    color: #707070;
+     
+}
+
+p.profile {
+    width: 600px;
+    display: inline-block;
+    margin: 36px 0px;  
+}
+
+p.hometown {
+    display: block;
+    padding: 0px;
+    margin: 24px 0px;
+}
+
+p.tourism {
+    margin: 24px 0px;
+}
+
+p.food {
+    display: block;
+    margin: 24px 0px;
+}
+
+p.source {
+    margin-top: 36px;
+    margin-bottom: 100px;
+}
+
+button {
+    font-family: 'Montserrat';
+    color: #707070;
+    background-color: white;
+    width: 156px;
+    height: 40px;
+    border: 2px solid #707070;
+    border-radius: 16px;
+    margin-top: 12px;
+}
+
+button.secondary {
+    margin-left: 12px;
+    width: 120px;
+    border: 2px solid #DDD7DC;
+}
+
+.profile {
+    margin: 100px 120px;
+}
+
+.image-food {
+    position: relative;
+}
+
+.text-food {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-family: 'Quicksand';
+    font-size: 36px;
+    font-weight: bold;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
